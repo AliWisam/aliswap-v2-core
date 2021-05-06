@@ -1,0 +1,21 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220a699407eb54ab539cfcab4bf221efe0eb71a77bf25a91f145e459004bd023ed864736f6c634300060c0033",
+      "opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xA6 SWAP10 BLOCKHASH PUSH31 0xB54AB539CFCAB4BF221EFE0EB71A77BF25A91F145E459004BD023ED864736F PUSH13 0x634300060C0033000000000000 ",
+      "sourceMap": "26:1303:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220a699407eb54ab539cfcab4bf221efe0eb71a77bf25a91f145e459004bd023ed864736f6c634300060c0033",
+      "opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xA6 SWAP10 BLOCKHASH PUSH31 0xB54AB539CFCAB4BF221EFE0EB71A77BF25A91F145E459004BD023ED864736F PUSH13 0x634300060C0033000000000000 ",
+      "sourceMap": "26:1303:0:-:0;;;;;;;;"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/libraries/AddressStringUtil.sol\":\"AddressStringUtil\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/libraries/AddressStringUtil.sol\":{\"keccak256\":\"0x1bb0aa768111c1d4734a4962e653beacf8f830b943d0dc83a0a6ff214762b9b1\",\"urls\":[\"bzz-raw://1f0851c7a6fa7705990dcecc83716b6335feccd48486bf7c953dcdba4364a575\",\"dweb:/ipfs/QmXViqxPFpqiTwAhaR5CjiaEoQKJ2dEBveYgHLgSVAQYjg\"]}},\"version\":1}",
+  "interface": [],
+  "bytecode": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220a699407eb54ab539cfcab4bf221efe0eb71a77bf25a91f145e459004bd023ed864736f6c634300060c0033"
+}
